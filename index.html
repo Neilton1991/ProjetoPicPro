@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets.css">
+    <title>PicPro</title>
+</head>
+<body>
+   
+    <!--Cabeçalho-->
+    <header class="cabecalho">
+        <div class="container">
+            <figure class="cabecalho_logoPicpro">
+                <img src="assets/img/logo-picpro.png" alt="Logo Picpro">
+            </figure>
+            <figure class="cabecalho_logoKenzie">
+                <img src="assets/img/logo-kenzie.png" alt="Logo Kenzie">
+            </figure>
+        </div>
+    </header>
+   
+    <!--Conteúdo Principal da página-->
+    <main>
+        <section class="secaoDetalhesConta">
+            <div class="secaoDetalhesConta_sobreUsuario">
+                <img src="assets/img/usuario.png" alt="Ícone do Usuário">
+                <p>Olá, <strong>@NeiltonSouza</strong></p>
+            </div>
+            <div class="secaoDetalhesConta_sobreSaldo">
+                <p>Saldo PicPay <strong>R$ 93,00</strong></p>
+                <button>Extrato</button>
+            </div>
+            <ul class="secaoDetalhesConta_opcoesTransacoes">
+                <li class="secaoDetalhesConta_itemTransacao">
+                    <img src="assets/img/qrcode.png" alt="ícone QR Code">
+                    <P>QR Code</P>
+                </li>
+                <li class="secaoDetalhesConta_itemTransacao">
+                    <img src="assets/img/pix.png" alt="ícone Pix">
+                    <P>Pix</P>
+                </li>
+                <li class="secaoDetalhesConta_itemTransacao">
+                    <img src="assets/img/codigo.png" alt="ícone Pagar Boleto">
+                    <p>Pagar Boleto</p>
+                </li>
+                <li class="secaoDetalhesConta_itemTransacao">
+                    <img src="assets/img/cobrar-icon.png" alt="ícone Cobrar">
+                    <p>Cobrar</p>
+                </li>
+              
+            </ul>
+        </section>
+
+        <section class="secaoTransacao">
+            <!--Div Geral-->
+            <div class="container">
+                <!--Div selecionar a forma de pagamento-->
+                <div class="secaoTransacao_avisoTransacao">
+                    <p>Selecione a forma de pagamento</p>
+                    <img src="assets/img/banner.png" alt="Forma de Pagamento">
+                </div>
+               
+                <!--div do QR Code-->
+                <div class="secaoTransacao_qrCode">
+                    <img src="assets/img/qrcode-imagem.png" alt="QR Code Imagem">
+                    <p>@NeiltonSouza</p>
+                    <button>Cobre um amigo</button>
+                    <strong>Compartilhar meu código</strong>
+                </div>
+               
+                <!--Div do Pix-->
+                <div class="secaoTransacao_pix">
+                    <img src="assets/img/pix-logo.png" alt="Logo Pix">
+                    <div class="secaoTransacao_boxOpcao">
+                        <img src="assets/img/pix1.png" alt="ícone Opção Pix">
+                        <p>Envie por CPF/CNPJ, telefone, e-mail ou chave aleatória</p>
+                    </div>
+                    <div>
+                        <img src="assets/img/pix2.png" alt="ícone Opção Pix">
+                        <p>Insira um código Pix Copia e Cola para enviar um pagamento</p>
+                    </div>
+                </div>
+                
+                <!--Div Pagar Boleto-->
+                <div class="secaoTransacao_boleto"> 
+                    <img src="assets/img/boleto.png" alt="Imagem Boleto">
+                    <h2>Pagar com o código de barras</h2>
+                    <p>Você pode parcelar em até 12x no cartão ou usar seu saldo em carteira pra pagar à vista.</p>
+                    <input type="text" placeholder="Insira o código de barras">
+                </div>
+                
+                <!--Div de Cobrar-->
+                <div class="secaoTransacao_cobrar">
+                    <img src="assets/img/cobrar.png" alt="Ícone cobrar">
+                    <h2>Cobrar</h2>
+                    <p>Divida a conta com os amigos de forma fácil!</p>
+                    <div class="secaoTransacao_boxOpcao">
+                        <img src="assets/img/picpay-icon.png" alt="ícone PicPay">
+                        <p>
+                            <strong>Amigos do PicPay</strong> Divida e acompanhe um gasto com pessoas por aqui
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--Rodapé-->
+        <footer class="rodape"> 
+            <ul class="rodape_menuPrincipal">
+                <li class="rodape_menuItem">
+                    <a href="">
+                        <img src="assets/img/inicio.png" alt="ícone Início">
+                        <p>Início</p>
+                    </a>
+                </li>
+                <li class="rodape_menuItem">
+                    <a href="#">
+                        <img src="assets/img/carteira-icon.png" alt="ícone Carteira">
+                        <p>Carteira</p>
+                     </a>
+                </li>
+                <li class="rodape_menuItem">
+                    <a href="#">
+                        <img src="assets/img/pagar.png" alt="ícone Pagar">
+                        <p>Pagar</p>
+                    </a>
+                </li>
+                <li class="rodape_menuItem">
+                    <a href="#">
+                        <img src="assets/img/notificacao.png" alt="ícone Notificações">
+                        <p>Notificações</p>
+                    </a>
+                </li>
+                <li class="rodape_menuItem">
+                    <a href="#">
+                        <img src="assets/img/bolsa.png" alt="ícone Bolsa">
+                        <p>Store</p>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </main>
+</body>
+</html>
